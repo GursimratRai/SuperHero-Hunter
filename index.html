@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+
+    <title>SuperHero Hunter</title>
+  </head>
+
+    <body>
+
+        <main class="container-fluid">
+            <!-- Navbar Container  -->
+            <div class="row">
+                <!-- Nav bar -->
+                <nav  class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+    
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <!-- Title -->
+                        <li class="nav-item">
+                            <a class="nav-link text-white fs-5 p-1" aria-current="page" href="/" ><b>SuperHero Hunter</b></a>
+                        </li>
+                        
+                        <!-- Home -->
+                        <li class="nav-item">
+                            <a class="nav-link" data-option='0' >Home</a>
+                        </li>
+                        <!-- Favourites -->
+                        <li class="nav-item">
+                            <a class="nav-link" data-option='1' ">Favourites</a>
+                        </li>
+                    </ul>
+
+                    <!-- search bar -->
+                    <input class="form-control me-2 w-50" id="search" type="search"  value='' placeholder="Search" aria-label="Search">
+                </nav>
+            </div>
+            
+            <!-- container for showing search results -->
+            <ul id='search-results' class='list-group list-group-horizontal d-flex flex-wrap'>
+                <!-- <li class='list-group-item p-0 border-0'>
+                    <div class="card m-2" style="max-width: 317px;">
+                        <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="hero image" class="img-fluid rounded-start h-100" alt="hero name">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title"><a class="text-decoration-none" href="/views/superhero.html/hero id" target="blank">hero name</a></h5>
+                            <p class="card-text"> publisher </p>
+                            <button class="btn btn-outline-primary" type="button">Add To Favourite</button>
+                            <button class="btn btn-outline-danger" type="button">Remove Favourite</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </li>-->
+            </ul>
+        </main>
+     
+        <!-- Java Script file -->
+        <script type="text/javascript" src="js/index.js" ></script>
+    </body>
+
+</html>
