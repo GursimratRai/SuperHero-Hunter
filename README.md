@@ -4,6 +4,13 @@ Learn about your favourite Marvel characters , Super heroes and villains! Discov
 ## 🔗 Links
 [Hosted Link](https://gursimratrai.github.io/SuperHero-Hunter/)
 
+## Screenshots
+#### Home
+![App Screenshot](https://drive.google.com//uc?export=view&id=1bEF65c6iyafezb9zFL8WdgNtHtZeiZwr)
+#### Favourites
+![App Screenshot](https://drive.google.com//uc?export=view&id=1bEVx1ACkMlAwJGBibMFRcAh8yqiDirT9)
+#### Superhero Page
+![App Screenshot](https://drive.google.com//uc?export=view&id=1bGORmQU0E0ZGxdHBbsitX-i00FY0Bgs3)
 
 ## API Reference
 
